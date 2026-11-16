@@ -1,0 +1,100 @@
+{
+  "required_backbones_missing": [],
+  "cache_checks": {
+    "cache": {
+      "DENTEX/dental_vitl": 1.0,
+      "ADCD/dental_vitl": 1.0,
+      "DENTEX/biomedclip": 1.0,
+      "ADCD/biomedclip": 1.0,
+      "DENTEX/dinov3": 1.0,
+      "ADCD/dinov3": 1.0
+    },
+    "duplicates": {
+      "radiograph_files": 1351,
+      "duplicate_groups_not_merged": 0,
+      "internal_external_duplicates": 0,
+      "split_leaks_over_seeds": 0
+    }
+  },
+  "B": {
+    "expected": 90,
+    "missing": [],
+    "errors": []
+  },
+  "C": {
+    "expected": 48,
+    "missing": [],
+    "errors": [],
+    "full_trunk_without_source_warm_start": []
+  },
+  "B2": {
+    "expected": 12,
+    "found": 12,
+    "without_external": 0
+  },
+  "D1": {
+    "expected": 117,
+    "found": 117,
+    "balanced_joint_rows": 36
+  },
+  "D2": {
+    "expected": 162,
+    "found": 162,
+    "with_locked_outcome": 81,
+    "with_matched_budget_outcome": 81
+  },
+  "G": {
+    "enumeration_json": "<DENTEX_ROOT>/training_data/quadrant_enumeration/train_quadrant_enumeration.json",
+    "enumeration_images": 634,
+    "names_in_both_sets": 634,
+    "identical_files": 2,
+    "different_files": 632,
+    "missing_files": 0,
+    "identical_fraction": 0.0031545741324921135,
+    "valid": false,
+    "reason": "same-named files in the enumeration and diagnosis sets are mostly different radiographs, so healthy-tooth status cannot be established from public DENTEX labels; the old healthy-tooth analysis (13,960 teeth, Fig. 7) is not supported and should be removed"
+  },
+  "E_files": {
+    "E1_auroc_ci.csv": true,
+    "E2_paired_diff.csv": true,
+    "E3_source_preservation.csv": true,
+    "E4_auroc_coverage.csv": true,
+    "E5_table_B.csv": true,
+    "E5_table_C.csv": true,
+    "E6_gate_matrix.csv": true
+  },
+  "delta_violations": [],
+  "prediction_files_missing": [],
+  "external_prediction_files_missing": [],
+  "source_preservation_failures": [
+    "('dental_vitl', 'R1_head', 42)",
+    "('dental_vitl', 'R1_head', 42)",
+    "('dental_vitl', 'R1_head', 42)",
+    "('dental_vitl', 'R1_head', 42)",
+    "('dental_vitl', 'R1_head', 42)",
+    "('dental_vitl', 'R1_head', 43)",
+    "('dental_vitl', 'R1_head', 43)",
+    "('dental_vitl', 'R1_head', 43)",
+    "('dental_vitl', 'R1_head', 43)",
+    "('dental_vitl', 'R1_head', 43)",
+    "('dental_vitl', 'R1_head', 44)",
+    "('dental_vitl', 'R1_head', 44)",
+    "('dental_vitl', 'R1_head', 44)",
+    "('dental_vitl', 'R1_head', 44)",
+    "('dental_vitl', 'R1_head', 44)",
+    "('biomedclip', 'R1_head', 42)",
+    "('biomedclip', 'R1_head', 43)",
+    "('biomedclip', 'E_lowrank_r8', 43)",
+    "('biomedclip', 'E_linear_l2', 43)",
+    "('biomedclip', 'R1_head', 44)",
+    "('biomedclip', 'E_lowrank_r8', 44)",
+    "('dinov3', 'R1_head', 42)",
+    "('dinov3', 'E_lowrank_r8', 42)",
+    "('dinov3', 'R1_head', 43)",
+    "('dinov3', 'E_lowrank_r8', 43)",
+    "('dinov3', 'E_linear_l2', 43)",
+    "('dinov3', 'R1_head', 44)",
+    "('dinov3', 'E_lowrank_r8', 44)"
+  ],
+  "C_wrong_signature": []
+}

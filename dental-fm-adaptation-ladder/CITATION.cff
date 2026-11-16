@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "Adaptation Ladder for Dental Foundation Models Under a Safety Envelope"
+type: software
+license: MIT
+authors:
+  - family-names: Elnashar
+    given-names: Ayman
+  - family-names: Elnashar
+    given-names: Norsin
+  - family-names: Emam
+    given-names: A.
+preferred-citation:
+  type: article
+  title: "An Adaptation Ladder for Dental Foundation Models Under a Safety Envelope: Transfer from DENTEX to ADCD"
+  authors:
+    - family-names: Elnashar
+      given-names: Ayman
+    - family-names: Elnashar
+      given-names: Norsin
+    - family-names: Emam
+      given-names: A.
+  year: 2026
+  notes: "Manuscript under review."
+references:
+  - type: article
+    title: "A safety envelope for foundation-model dental diagnosis: Bounded-deviation guarantees and cross-center refusal"
+    authors:
+      - family-names: Elnashar
+        given-names: Ayman
+      - family-names: Elnashar
+        given-names: Norsin
+      - family-names: Elemam
+        given-names: A.
+    year: 2026
+    doi: 10.21203/rs.3.rs-10255012/v1
+    notes: "Research Square preprint."

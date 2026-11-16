@@ -1,0 +1,11 @@
+{
+  "enumeration_json": "<DENTEX_ROOT>/training_data/quadrant_enumeration/train_quadrant_enumeration.json",
+  "enumeration_images": 634,
+  "names_in_both_sets": 634,
+  "identical_files": 2,
+  "different_files": 632,
+  "missing_files": 0,
+  "identical_fraction": 0.0031545741324921135,
+  "valid": false,
+  "reason": "same-named files in the enumeration and diagnosis sets are mostly different radiographs, so healthy-tooth status cannot be established from public DENTEX labels; the old healthy-tooth analysis (13,960 teeth, Fig. 7) is not supported and should be removed"
+}

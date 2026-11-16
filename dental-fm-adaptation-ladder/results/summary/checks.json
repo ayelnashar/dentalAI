@@ -1,0 +1,16 @@
+{
+  "cache": {
+    "DENTEX/dental_vitl": 1.0,
+    "ADCD/dental_vitl": 1.0,
+    "DENTEX/biomedclip": 1.0,
+    "ADCD/biomedclip": 1.0,
+    "DENTEX/dinov3": 1.0,
+    "ADCD/dinov3": 1.0
+  },
+  "duplicates": {
+    "radiograph_files": 1351,
+    "duplicate_groups_not_merged": 0,
+    "internal_external_duplicates": 0,
+    "split_leaks_over_seeds": 0
+  }
+}
